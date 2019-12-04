@@ -1,0 +1,161 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("https://github.com/everetthumphreys/portfolio/blob/master/assets/images/triangle-mosaic.png?raw=true");
+    background-repeat: repeat;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+}
+/* This is an invisible centered container that holds all my primary content. */
+.container {
+    position: fixed;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -480px;
+    width: 960px;
+    height: 100%;
+}
+/* This is an invisible container that holds the logo and navigation. */
+.head {
+    width: 100%;
+    height: 170px;
+    border: 2px #cccccc solid;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+#logo {
+    position: relative;
+    bottom: -35px;
+    z-index: 1;
+}
+#logo p {
+    background: #4aaaa5;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: white;
+    padding: 12px;
+    width: 165px;
+    border: 2px #cccccc solid;
+}
+.navigation {
+    position: relative;
+    right: -700px;
+    top: -50px;
+    z-index: 1;
+}
+.navigation li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    display: inline;
+}
+.navigation li + li:before {
+    content: " | ";
+    padding: 0 10px;
+    color: #cccccc;
+}
+.navigation li a:link {
+    text-decoration: none;
+    color: #666666;
+}
+.navigation li a:visited {
+    text-decoration: none;
+    color: #666666;
+}
+.navigation li a:hover {
+    text-decoration: none;
+    color: #4aaaa5;
+}
+.navigation li a:active {
+    text-decoration: none;
+    color: #666666;
+}
+.body-content {
+    width: 920px;
+    min-height: 500px;
+    background-color: white;
+    margin: auto;
+    border: 1px #dddddd solid;
+    padding: 20px;
+}
+hr {
+    border: 1px solid #cccccc;
+}
+.body-content p {
+    line-height: 28px;
+}
+.body-content img {
+    width: 200px;
+    float: left;
+    padding: 15px;
+}
+input[type=text] {
+    padding:15px 20px 15px 10px; 
+    margin: 10px 0px;
+    border:1px solid #dddddd; 
+    width: 890px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #666666;
+    font-size: 15px;
+}
+input[type=submit] {
+    padding:10px 30px;
+    background:#4aaaa5; 
+    border:0 none;
+    cursor:pointer;
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+}
+textarea {
+    padding:15px 20px 15px 10px; 
+    margin: 10px 0px;
+    border:1px solid #dddddd; 
+    height: 150px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #666666;
+    font-size: 15px;
+    min-width: 890px;
+    max-width: 890px;
+}
+#portfolio-container {
+    width: 500px;
+}
+.portfolio-object {
+    height: 150px;
+    width: 200px;
+    display: inline-block;
+    margin: 5px 20px;
+    position: relative;
+}
+.portfolio-labels p{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    left: 15px;
+    top: 104px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 5px;
+}
+.sticky-footer {
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    text-align: center;
+}
