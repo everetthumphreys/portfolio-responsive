@@ -72,7 +72,7 @@ hr {
 #body-content p {
     line-height: 28px;
 }
-#body-content img {
+#me {
     width: 225px;
     float: left;
     padding: 15px;
@@ -119,8 +119,7 @@ textarea {
     width: 200px;
     height: 35px;
     position: absolute;
-    left: 15px;
-    top: 104px;
+    top: 108px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     text-align: center;
     padding-top: 5px;
