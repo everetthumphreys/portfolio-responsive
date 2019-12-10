@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #ffffff;
     margin: auto;
     border-bottom: 1px #dddddd solid;
+    max-width: 960px;
 }
 #logo {
     position: relative;
@@ -68,6 +69,7 @@ hr {
     border: 1px #dddddd solid;
     padding: 20px;
     margin: 50px auto 50px auto;
+    max-width: 960px;
 }
 #body-content p {
     line-height: 28px;
