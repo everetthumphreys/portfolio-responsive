@@ -9,6 +9,7 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
+    font-weight: bold;
 }
 #header-fluid-content {
     height: 170px;
@@ -29,37 +30,29 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px #dddddd solid;
     max-width: 960px;
 }
-#logo {
-    position: relative;
-    bottom: -67px;
-    left: -15px;
-    z-index: 1;
-    width: 190px;
-}
-#logo p {
+.navbar-brand {
     background: #4aaaa5;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
     color: white;
     padding: 12px;
-    width: 190px;
+    width: 185px;
     border: 2px #cccccc solid;
 }
-.nav {
+.navbar-light .navbar-brand {
+    color: #ffffff;
+}
+#navbarSupportedContent > ul {
     position: relative;
-    top: 127px;
+    top: 30px;
 }
-.nav-item a:hover {
-    color: #4aaaa5;
+.bg-light {
+    background-color: transparent !important;
 }
-.nav-item a:visited {
-    color: #666666;
-}
-.nav-item a:active {
-    color: #666666;
-}
-.nav-item a:link {
-    color: #666666;
+#header-content > nav {
+    position: relative;
+    top: 65px;
+    padding: 0px;
 }
 hr {
     border: 1px solid #cccccc;
