@@ -6,7 +6,7 @@ This is my portfolio website that I designed to demonstrate the skills that I am
 Clone it to your PC and open index.html in a web browser.
 
 ### Credits
-Just me for now.
+w3schools and Bootstrap's documentation
 
 ### License
 Copyright (c) 2019 Everett Humphreys
