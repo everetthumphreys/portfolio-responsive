@@ -39,6 +39,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 185px;
     border: 2px #cccccc solid;
 }
+#header-content > nav > a:hover {
+    color: #dddddd;
+}
 .navbar-light .navbar-brand {
     color: #ffffff;
 }
