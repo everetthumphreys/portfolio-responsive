@@ -1,0 +1,11 @@
+.main-content {
+    background-color: #ffffff;
+}
+.profile-img {
+    width: 350px;
+}
+.footer {
+    color: #ffffff;
+    text-align: center;
+    min-height: 50px;
+}
