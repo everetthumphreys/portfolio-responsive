@@ -2,14 +2,17 @@
 ### Description
 This is my portfolio website that I designed to demonstrate the skills that I am picking up in the Coding Bootcamp.
 
+### View my Portfolio
+[Click Here to view the live site](https://everetthumphreys.github.io/portfolio-responsive/)
+
 ### Installation
 Clone it to your PC and open index.html in a web browser.
 
 ### Credits
-w3schools and Bootstrap's documentation
+[Materialize](https://materializecss.com/)
 
 ### License
-Copyright (c) 2019 Everett Humphreys
+Copyright (c) 2020 Everett Humphreys
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
