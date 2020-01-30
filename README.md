@@ -8,6 +8,9 @@ This is my portfolio website that I designed to demonstrate the skills that I am
 ### Installation
 Clone it to your PC and open index.html in a web browser.
 
+### Screenshot
+![Screenshot](https://raw.githubusercontent.com/everetthumphreys/portfolio-responsive/master/assets/images/screenshot.png)
+
 ### Credits
 [Materialize](https://materializecss.com/)
 
